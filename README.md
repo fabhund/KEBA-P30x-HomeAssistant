@@ -39,9 +39,13 @@ To write values to the wall box (Like max. charge current), create an automation
 Create a new automation and copy/paste the automation.yaml
 
 # Registers
-Address | Platform | Description | Address
--- | -- | -- | --
-5014 | sensor | Show information from your Volkswagen ID car. | 5014
+Registers starting with:
+- 1xxx are Read-Only
+- 5xxx are Write-Only
+
+Address | Platform | Description | Unit | Device | State
+-- | -- | -- | -- | -- | --
+5014 | sensor | Show information from your Volkswagen ID car. | V | Ampere | measurement
 5016 | button | Start climatization in your Volkswagen ID car. | 5016
 
 # Volkswagen We Connect ID [ONLY FOR EUROPE]
