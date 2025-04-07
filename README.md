@@ -45,8 +45,9 @@ Registers starting with:
 
 Address | Platform | Description | Unit | Device | State
 -- | -- | -- | -- | -- | --
-5014 | sensor | Show information from your Volkswagen ID car. | V | Ampere | measurement
-5016 | button | Start climatization in your Volkswagen ID car. | 5016
+5014 | sensor | L1-N Voltage | V | Ampere | measurement
+5016 | button | Text sensor for showing cable states in plain text ldfkjg lkfdjg dlkfg lkdjf glkdjfg lkdjgf ldjgf ldkfjg  | - | - | - 
+5018 | binary sensor | Text sensor for showing charging states in plain text | - | - | - 
 
 # Volkswagen We Connect ID [ONLY FOR EUROPE]
 _Volkswagen We Connect ID sensor provides statistics from the Volkswagen ID Api thru [WeConnect-python lib](https://pypi.org/project/weconnect/)._
